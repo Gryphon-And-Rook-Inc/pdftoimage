@@ -13,7 +13,8 @@ module PDFToImage
         # ImageMagick methods that we currently support.
         CUSTOM_IMAGE_METHODS = [
             "resize",
-            "quality"
+            "quality",
+            "alpha"
         ]
 
         CUSTOM_IMAGE_METHODS.each do |method|
